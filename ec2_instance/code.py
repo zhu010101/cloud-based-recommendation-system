@@ -43,7 +43,7 @@ def recommend():
 
     data = Dataset.load_from_df(df[['user_id', 'product_id', 'rating']], reader)
 
-        # Split the data into train and test sets
+    # Split the data into train and test sets
     trainset, testset = train_test_split(data, test_size=0.2)
     # Train the SVD algorithm
     algo = SVD()
