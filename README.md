@@ -8,12 +8,6 @@ This project implements a cloud-based recommendation system for e-commerce using
 - Vidhi Mansharamani
 - Ziyu Ou
 
-
-## Course Information
-- Course: APAN 5450: Cloud Computing
-- Professor: Philip Shilane
-- Date: April 28, 2024
-
 ## Executive Summary
 - Objective: Enhance customer experience with personalized shopping journeys.
 - Problem: Current systems struggle with scalability, data complexity, and processing power.
@@ -30,17 +24,21 @@ This project implements a cloud-based recommendation system for e-commerce using
 - Framework: Flask application using Singular Value Decomposition (SVD) for collaborative filtering.
 - Data Storage: AWS DynamoDB.
 - Data Processing: pandas, Surprise library.
-- API Endpoint: /recommend to serve personalized recommendations.
+- API Endpoint: recommend to serve personalized recommendations.
 ### Service Delivery
 - Frontend: AWS Lambda functions and API Gateway.
 - Security: HTTPS endpoints to avoid mixed content errors.
 - VPC: Configured for secure and isolated environment across two Availability Zones.
 ### Security Configuration
-- Components: Security Groups, S3 bucket policies, IAM roles, MFA, KMS, Network ACLs.
+- Components: Security Groups, S3 bucket policies, Network ACLs.
 - Access Control: Strictly controlled to allow only necessary traffic.
 ### Cost Analysis
 - Comparison: AWS vs. Google Cloud.
 - Findings: AWS offers more cost-effective solutions for database services and competitive storage costs. GCP is cheaper for networking.
 - Optimizations: Reserved Instances, lifecycle policies, VPC Endpoints, scaling resources, and efficient database use.
+## Implementation and Demo
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/8977add2-93d9-437a-9672-db5f845a2634">
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/80cc81da-5a00-4cfc-a150-418ddf1f9962">
+
 ## Conclusion
 The cloud-based Recommendation System aims to improve the customer shopping experience while providing businesses with actionable insights for optimizing their offerings.
