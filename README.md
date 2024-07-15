@@ -36,6 +36,8 @@ This project implements a cloud-based recommendation system for e-commerce using
 - Comparison: AWS vs. Google Cloud.
 - Findings: AWS offers more cost-effective solutions for database services and competitive storage costs. GCP is cheaper for networking.
 - Optimizations: Reserved Instances, lifecycle policies, VPC Endpoints, scaling resources, and efficient database use.
+## Trials and Attempts
+We initially planned to use Amazon Personalize for streamlined recommendation generation, but IAM role constraints prevented us from attaching necessary policies. We then tried Amazon SageMaker's Factorization Machines algorithm, successfully training the model but facing registration issues. Ultimately, we deployed the system on an EC2 instance, which required more manual setup but allowed us to deliver personalized recommendations. Budget constraints quickly arose with Amazon SageMaker, prompting us to continue on an EC2 instance with minimal budget constraints on a separate student account. This experience underscored the importance of careful budget management in future projects. Detailed descriptions of these efforts are provided in the final report uploaded in the main repository.
 ## Implementation and Demo
 <img width="450" alt="image" src="https://github.com/user-attachments/assets/8977add2-93d9-437a-9672-db5f845a2634">
 <img width="450" alt="image" src="https://github.com/user-attachments/assets/80cc81da-5a00-4cfc-a150-418ddf1f9962">
