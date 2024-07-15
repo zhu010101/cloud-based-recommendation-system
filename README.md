@@ -14,7 +14,8 @@ This project implements a cloud-based recommendation system for e-commerce using
 - Solution: Cloud-based Recommendation System using AWS services (S3, DynamoDB, EC2, API Gateway, Lambda, VPC).
 
 ## Data Description
-- Source: User-generated content from Amazon.com's 'Grocery_and_Gourmet_Food' category.
+- Source:User-generated content from Amazon.com's 'Grocery_and_Gourmet_Food' category.
+  https://amazon-reviews-2023.github.io/index.html
 - Size: 5.97GB JSON (3.7GB CSV), 14,318,520 reviews.
 - Metrics: Star ratings, review texts, images, ASINs, customer IDs.
 - Sample Size for Analysis: 5,000,000 reviews.
